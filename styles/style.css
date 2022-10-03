@@ -60,6 +60,7 @@ body {
     outline: none;
 }
 
+
 .header__list {
     display: flex;
     list-style-type: none;
@@ -262,4 +263,15 @@ body {
     border-radius: 10px;
     background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
     padding: 10px 20px;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.faq__item {
+    flex-basis: 48%;
 }
