@@ -508,3 +508,9 @@ body {
         height: 50vw;
     }
 }
+
+@media (max-width: 500px) {
+    .company__img {
+        height: 4.8vw;
+    }
+}
