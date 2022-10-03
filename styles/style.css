@@ -514,3 +514,9 @@ body {
         height: 4.8vw;
     }
 }
+
+@media (max-width: 400px) {
+    .company__img {
+        height: 5.3vw;
+    }
+}
