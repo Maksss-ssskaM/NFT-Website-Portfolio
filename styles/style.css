@@ -434,3 +434,77 @@ body {
         font-size: 30px;
     }
 }
+
+@media (max-width: 600px) {
+    .header, .container {
+        max-width: 400px;
+    }
+
+    .header {
+        padding-bottom: 50px;
+    }
+
+    .faq, .card {
+        flex-direction: column;
+    }
+
+    .main__text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .main__title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .main__description, .main__btn, .main__item, .desc, .card__link, .collapsible, .banner__link {
+        font-size: 16px;
+    }
+
+    .main__list {
+        justify-content: center;
+    }
+
+    .company {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .company__img {
+        height: 3.8vw;
+    }
+
+    .card {
+        max-width: 300px;
+        margin: 30px auto 100px;
+    }
+
+    .desc {
+        max-width: 300px;
+    }
+
+    .card__item {
+        margin-bottom: 15px;
+    }
+
+    .main__image {
+        display: none;
+    }
+
+    .faq {
+        margin-bottom: 0;
+    }
+
+    .banner {
+        margin-top: 60px;
+    }
+
+    .banner__title {
+        font-size: 22px;
+    }
+
+    .card__cover, .card__img {
+        height: 50vw;
+    }
+}
